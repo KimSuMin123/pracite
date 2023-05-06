@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Books from "./pages/books";
 import Add from "./pages/add";
 import Update from "./pages/update";
-import "./style.css"
+import Mainpage from "./pages/mainpage";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Route path="/" element = {<Books/>}/>
           <Route path="/add" element = {<Add/>}/>
           <Route path="/update/:id" element = {<Update/>}/>
+          <Route path="/Mainpage" element = {<Mainpage/>}/>
         </Routes>
       </BrowserRouter>
     </div>

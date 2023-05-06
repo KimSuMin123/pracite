@@ -1,0 +1,18 @@
+th:first-child{
+    width: 100px;
+}
+th{
+    width: 300px;
+}
+td:first-child{
+    width: 100px;
+    text-align: center;
+}
+td:nth-child(2){
+    width: 300px;
+    text-align: center;
+}
+td:nth-child(3){
+    width: 300px;
+    text-align: center;
+}
